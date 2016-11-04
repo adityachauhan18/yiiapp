@@ -17,7 +17,8 @@ use yii\web\NotFoundHttpException;
  */
 class DefaultController extends Controller
 {
-    public $layout = 'generator';
+   
+   // public $layout = 'generator';
     /**
      * @var \yii\gii\Module
      */

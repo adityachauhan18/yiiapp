@@ -479,6 +479,8 @@ class Controller extends Component implements ViewContextInterface
      */
     public function findLayoutFile($view)
     {
+        
+       
         $module = $this->module;
         if (is_string($this->layout)) {
             $layout = $this->layout;
